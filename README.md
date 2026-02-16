@@ -9,4 +9,5 @@ This bot started off as a PoC for running RMTB bots in the browser.
 4. Open the HTML file under `dist`
 ## Licensing
 If you would like to host a pre-built package on your website, go ahead!
+
 **DISCLAIMER: Make sure to include all of the package's files!**
