@@ -10,4 +10,8 @@ This bot started off as a PoC for running RMTB bots in the browser.
 ## Licensing
 If you would like to host a pre-built package on your website, go ahead!
 
+
+This will not work when accessed from a website. Run the HTML file directly.
+
+
 **DISCLAIMER: Make sure to include all of the package's files!**
