@@ -1,0 +1,1 @@
+export default {mode:'production',target:['web','es5'],resolve:{extensions:['.js','.ts']},output:{filename:'bot.js'},optimization:{concatenateModules:true,mangleExports:'size'},module:{rules:[{test:/\.ts$/,loader:"ts-loader"}]},entry:'./src/index.ts'};

@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "he": "^1.2.0",
+    "sha256": "^0.2.0",
+    "socket.io-client": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/he": "^1.2.3",
+    "@types/sha256": "^0.2.2",
+    "esbuild": "^0.27.3",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "npx webpack && npm run update-bot",
+    "update-bot": "node update-bot.cjs"
+  }
+}

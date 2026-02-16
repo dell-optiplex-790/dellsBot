@@ -1,0 +1,6 @@
+# bot cache
+dist
+
+# npm stuff
+node_modules
+package-lock.json
