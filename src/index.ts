@@ -42,7 +42,7 @@ function cmdHandler_parseCommand(cmd: string): [string, ...Array<string>] {
 function send(msg: string, error?: boolean) {
     var formatted = msg;
     if(error) {
-        formatted = '<span style="color: tomato; font-size: 12px; vertical-align: baseline">ⓧ</span> ' + msg;
+        formatted = '<span style="color: tomato; font-size: 12px; vertical-align: baseline">\u24E7</span> ' + msg;
     }
     socket.send('<span style="font-family: Comic Sans MS; font-size: 10px">' + formatted + '</span>');
 }
